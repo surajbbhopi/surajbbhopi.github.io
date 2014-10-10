@@ -16,7 +16,9 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #2c3135;
+/*	background: #2c3135;  to hide bg color */ 
+	background-image: url(../img/demo-2-bg.jpg);
+	background-position:; /* new style add here*/
 	color: #c5d3d6;
 	font-weight: 400;
 	font-size: 1em;
@@ -71,7 +73,8 @@ a:hover, a:focus {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(40,49,56,0.95);
+/*	background-color: rgba(40,49,56,0.95); change bg overlay as per req here */
+	
 	z-index: 10000;
 }
 
@@ -108,14 +111,6 @@ a:hover, a:focus {
 	background-color: rgba(52,73,94,0.7);
 	background-repeat: no-repeat;
 	background-position: 50% 85%;
-}
-
-.info span.info-drag {
-	background-image: url(../img/drag.svg);
-}
-
-.info span.info-keys {
-	background-image: url(../img/keys.svg);
 }
 
 .info span.info-switch {
