@@ -25,7 +25,7 @@ h1{
 
 .example-image{
 	width:12rem;
-	border: 2px solid olive; 
+	border: 0px solid orange; 
 	box-shadow: 2px 2px 2px 2px olive;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
