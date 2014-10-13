@@ -59,7 +59,6 @@ p.ref {
 	line-height: 1;
 	font-weight: 200;
 }
-
 .codrops-header h1 span {
 	display: block;
 	padding: 1em 0 1.5em;
@@ -110,7 +109,6 @@ p.ref {
 	padding-top: 1em;
 	font-size: 0.8em;
 }
-
 .codrops-demos a {
 	display: inline-block;
 	margin: 0.35em 0.1em;
@@ -124,7 +122,6 @@ p.ref {
 	font-size: 110%;
 	border: 2px solid transparent;
 }
-
 .codrops-demos a:hover,
 .codrops-demos a.current-demo {
 	border-color: #383a3c;

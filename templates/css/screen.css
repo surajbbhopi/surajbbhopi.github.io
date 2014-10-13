@@ -16,6 +16,7 @@ h1{
 /* container style here */
 .container{
 	margin:0 auto;
+	margin-top: 40px;
 	max-width:100rem;
 	width:100%;
 	background-color:;
@@ -27,11 +28,8 @@ h1{
 
 .example-image{
 	width:12rem;
-<<<<<<< HEAD
-	border: 0px solid orange;  /* change img border properties */
-=======
+	border: 0px solid orange;  
 	border: 0px solid orange; 
->>>>>>> origin/master
 	box-shadow: 2px 2px 2px 2px olive;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;

@@ -3,21 +3,49 @@
 <head>
 	<meta charset="utf-8">
 	<title> Web Templates </title>
+	<link rel="icon" type="image/png" href="img/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="css/screen.css">
 	<link rel="stylesheet" href="css/lightbox.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script>
 
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+
+</script>
 </head>
 <body>
 	<!-- web templates section here -->
-
+	<nav>
+		<ul id="nav">
+					<li><a href="#Templates"/>Templates</a></li>
+					<li><a href="#HTML5"/>HTML5</a></li>
+					<li><a href="#Emailer"/>Emailer</a></li>
+					<li><a href="#BrandAdds"/>Adds</a></li>
+				</ul>
+			</nav>
+			
 	<section id="examples" class="examples-section">
 
-		<div class="container">
+		<div class="container"><br>
 			
 			<h3 style="clear: both;"> Web Templates </h3>
 
-				<div class="image-row">
+				<div class="image-row" id="Templates">
 
 					<div class="image-set">  
 					<a class="example-image-link" href="img/Artclass.png" data-lightbox="example-set" data-title="press the right arrow on your keyboard."><img class="example-image" src="img/1.jpg" alt="" /></a>
@@ -74,7 +102,7 @@
 		
 			<h3 style="clear: both;"> Emailer </h3>
 		
-				<div class="image-row">
+				<div class="image-row" id="Emailer">
 		
 					<div class="image-set">
 			
@@ -101,7 +129,7 @@
 				
 			<h3 style="clear: both;"> Brand Adds </h3>
 					
-				<div class="image-row">
+				<div class="image-row" id="BrandAdds">
 						
 					<div class="image-set">
 						

@@ -81,7 +81,7 @@
  .icon-icon4:before{content:"\e603"}
  .icon-icon5:before{content:"\e606"}
  .icon-behance:before{content:"\e604"}
- /*.icon-logo:before{content:"\e605"} */
+
  .icon-logo_plain:before{content:"\e60b"}
  .icon-menu:before{content:"\e607"}
  .icon-drag:before{content:"\e60c"}
@@ -97,7 +97,10 @@
  background:#fff;
  box-shadow:1px 2px 6px 0 rgba(0,0,0,.25);
  transition:width 1s ease}
- header p.logo{overflow:visible;position:absolute;top:50%;left:50%;width:95px;height:98px;margin-left:-48px;margin-top:-47px}
+
+ header p.logo{overflow:visible;position:absolute;top:50%;left:50%;width:95px;height:98px;margin-left:-48px;margin-top:-47px;
+ 
+ }
  
  header p.logo a{
  	font-size:25px;
@@ -277,6 +280,7 @@
  margin-top:-21px}
  header p.logo a{font-size:48px}
  header p.logo a:before{content:"\e60b"} 
+
  header p.social{left:auto;bottom:auto;top:50%;right:35px;margin-left:0;margin-top:-9px}
  header p.collapse{left:35px;top:50%;margin-top:-12px}
  header:hover{width:100%}header:hover nav{opacity:0}

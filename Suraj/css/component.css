@@ -8,14 +8,10 @@
 	background-position: center center;
 	z-index: 1;
 }
-
-
-
 .demo-2 .large-header {
 	background-image: url('../img/demo-2-bg.jpg');
 	background-position: center bottom;
 }
-
 .demo-2 .main-title::before {
 	content: '';
 	width: 20vw;
@@ -32,8 +28,6 @@
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
-
-
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title, 
 	.demo-3 .main-title,

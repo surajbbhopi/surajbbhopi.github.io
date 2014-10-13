@@ -30,7 +30,9 @@ body.wide #projects ul li.wide{width:66%}
 
 #contact p.submit input:hover,#contact p.submit input:focus{color:#000;border-color:#000}
 #contact textarea,#contact textarea:hover,#contact textarea:focus,#contact input,#contact input:hover,#contact input:focus{-webkit-transition:-webkit-transform .5s,all .5s;-moz-transition:-moz-transform .5s,all .5s;transition:transform .5s,all .5s}#contact h2{font-size:40px;text-align:center;text-transform:uppercase}#contact h2+p{margin-top:6px;font-size:21px;text-align:center;text-transform:uppercase}#contact p.social{padding-bottom:15px;text-align:center}#contact p.social a{display:inline-block;width:42px;height:24px;font-size:24px;color:#a4a5a5}#contact p.social a:hover{color:#000}
-#contact .marker{position:absolute;top:50%;left:0;width:100%;z-index:2;margin-top:-57px;text-transform:uppercase;text-align:center;font-size:19px}
+/* change live in div box stylesheet here */
+#contact .marker{position:absolute;top:40%;left:0;width:100%;z-index:2;margin-top:-50px;text-transform:uppercase;text-align:center;font-size:19px}
+
 #contact .marker span{display:inline-block;height:54px;padding:0 21px;margin-bottom:3px;line-height:54px;background:#fff}
 
 h3{font-size: 15px; color:#333;margin-left: 2px; padding-left: 2px;}
